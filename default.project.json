@@ -1,0 +1,52 @@
+{
+  "name": "NeoArkaia",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "NeoArkaia_Server": {
+        "$className": "Folder",
+        "GameController": { "$path": "src/server/GameController.server.lua" },
+        "DataStoreManager": { "$path": "src/server/DataStoreManager.lua" },
+        "CrossServerHeist": { "$path": "src/server/CrossServerHeist.lua" },
+        "EconomyManager": { "$path": "src/server/EconomyManager.lua" },
+        "Fortification": { "$path": "src/server/Fortification.lua" },
+        "NPCController": { "$path": "src/server/NPCController.lua" },
+        "InitNPCs": { "$path": "src/server/InitNPCs.server.lua" },
+        "Debug_CombatTest": { "$path": "src/server/Debug_CombatTest.server.lua" }
+      }
+    },
+    "ReplicatedStorage": {
+      "NeoArkaia_Shared": {
+        "$className": "Folder",
+        "Modules": {
+          "$className": "Folder",
+          "CombatSystem": { "$path": "src/shared/CombatSystem.lua" },
+          "ItemSystem": { "$path": "src/shared/ItemSystem.lua" },
+          "VFXController": { "$path": "src/shared/VFXController.lua" },
+          "SymbeonMeshSystem": { "$path": "src/shared/SymbeonMeshSystem.lua" },
+          "RobloxMapaModule": { "$path": "src/shared/RobloxMapaModule.lua" },
+          "MapaJSON": { "$path": "src/shared/MapaJSON.lua" },
+          "InkRuntime": { "$path": "src/shared/InkRuntime.lua" }
+        },
+        "Events": { "$className": "Folder" },
+        "Narratives": {
+          "$className": "Folder",
+          "Compiled": { 
+             "$className": "Folder",
+             "main_story": { "$path": "narratives/compiled/main_story.json.lua" }
+          }
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "NeoArkaia_Client": {
+          "$className": "Folder",
+          "HUDSystem": { "$path": "src/client/HUDSystem.client.lua" },
+          "DialogueUI": { "$path": "src/client/DialogueUI.lua" },
+          "IdleEngine": { "$path": "src/client/IdleEngine.client.lua" }
+        }
+      }
+    }
+  }
+}

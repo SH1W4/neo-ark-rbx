@@ -1,0 +1,20 @@
+# Roblox/Rojo patterns
+.rojo/
+*.rbxlx
+*.rbxl
+*.lock
+*.temp
+
+# NPM
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
