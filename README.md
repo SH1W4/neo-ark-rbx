@@ -2,6 +2,18 @@
 
 **Neo-Arkaia** é um ecossistema de jogo sistêmico e scifi construído para Roblox, utilizando o poder do **Rojo** para um fluxo de trabalho de engenharia profissional.
 
+## 🌌 O Universo: Lore & História
+
+Em um futuro onde a realidade física colapsou sob o peso da entropia digital, o que resta da consciência humana habita a **Malha Symbeon**.
+
+- **A Malha (The Mesh):** Uma infraestrutura cristalina e poligonal que sustenta o vazio. Não é apenas código; é a última fronteira da existência.
+- **Sincronizadores:** Você é um Sincronizador. Operadores de elite da **EZ-Fundation** treinados para estabilizar fragmentos de código, minerar segredos e defender Nodes críticos.
+- **Echos:** Inteligências residuais e fragmentos de sistemas antigos que se tornaram hostis. Eles tentam "desfragmentar" qualquer intruso biológico que ouse navegar pelos setores instáveis.
+
+No coração de Neo-Arkaia, a Arqueologia Digital do projeto **AION** revelou que o passado binário esconde as chaves para a soberania do futuro.
+
+---
+
 ## 🚀 Arquitetura do Projeto
 
 O projeto segue a estrutura padrão Rojo para máxima modularidade:
