@@ -3,7 +3,7 @@
 Este documento formaliza como transformar a Arqueologia Digital do **AION** em realidade no **Roblox Studio**.
 
 ## 1. Fluxo de Dados (Data Flow)
-1. **AION/EZ-Studios**: Gera o arquivo `matrix_dna_seed.json` (o DNA Digital).
+1. **AION/EZ-Studios**: Gera o arquivo `genesis_map_seed.json` (o DNA Digital).
 2. **Roblox Bridge**: O script `RobloxMapaModule.lua` lê este JSON.
 3. **Neo-Arkaia**: O mundo é construído peça por peça no servidor Roblox.
 
@@ -11,7 +11,7 @@ Este documento formaliza como transformar a Arqueologia Digital do **AION** em r
 
 ## 2. Como Importar as Sementes (Seeds)
 Para levar o DNA escavado para o jogo:
-- Copie o conteúdo de `ez-studios-core/content/seeds/matrix_dna_seed.json`.
+- Copie o conteúdo de `ez-studios-core/content/seeds/genesis_map_seed.json`.
 - No Roblox Studio, crie um **ModuleScript** chamado `WorldSeed` dentro de `ReplicatedStorage`.
 - Cole o JSON no formato de tabela Luau.
 
@@ -22,7 +22,7 @@ Para levar o DNA escavado para o jogo:
 | :--- | :--- | :--- |
 | `aion-core` | `WorldSeed` Module | Define a estética e complexidade. |
 | `scripts/` | `ServerScriptService` | Processa comandos e economia. |
-| `assets/` | `Decals / ImageLabels` | Aplica as texturas Matrix ao mundo. |
+| `assets/` | `Decals / ImageLabels` | Aplica as texturas da Grade ao mundo. |
 
 ## 4. Próxima Etapa: A Sincronização
 Para continuar a criação:

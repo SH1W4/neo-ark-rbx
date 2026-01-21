@@ -6,7 +6,7 @@ Este registro "codifica" os assets visuais em especificações técnicas para o 
 
 ### [ID: CLO_SYNCH_01] Sobretudo do Sincronizador
 - **Tipo**: Camada de Corpo (Layered Clothing)
-- **DNA Seed**: `matrix_fiber_v2_entropy6.5`
+- **Genesis Fragment**: `prime_grid_trace_v2_entropy6.5`
 - **Efeito**: Reduz o dano de Echos em 15%.
 - **Estética**: Preto obsidiana com emissão verde neon pulsante nos circuitos.
 

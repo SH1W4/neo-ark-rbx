@@ -1,7 +1,7 @@
 # Neo-Arkaia: The Symbeon Awakening 🎮🕶️🌌
 
 ## 1. O Enredo (Lore)
-Em um futuro onde a **EZ-Fundation** resgatou o DNA da Matrix, você joga como um **Sincronizador**. 
+Em um futuro onde a **EZ-Fundation** resgatou o DNA da Grade Primordial, você joga como um **Sincronizador**. 
 - **O Conflito**: Os Echos (vírus de código antigo) tentam deletar a realidade procedural.
 - **A Missão**: Usar o **Terminal Symbeon** para reescrever o mundo em tempo real e estabilizar os setores gerados pelo AION.
 
@@ -31,8 +31,8 @@ Design de elite para criadores, inspirado no terminal do AION.
 ### Gamepasses Sugeridos:
 | Nome | ID (Mockup) | Efeito |
 | :--- | :--- | :--- |
-| **Architect Access** | 10001 | Comandos ilimitados no Terminal e Multiplicador 2x de EB. |
-| **Sovereign Vision** | 10002 | Vê inimigos e itens raros através das paredes (Estética Matrix). |
+| **Hierophant Access** | 10001 | Comandos ilimitados no Terminal e Multiplicador 2x de EB. |
+| **Sovereign Vision** | 10002 | Vê inimigos e itens raros através das paredes (Estética Prime-Grid). |
 
 ---
 
@@ -56,7 +56,7 @@ TerminalCommand.OnServerEvent:Connect(function(player, command)
     local eb = stats.EntropyBits
     
     if command == "reality_warp" then
-        -- Verifica Gamepass do Arquiteto (ID Mock)
+        -- Verifica Gamepass do Hierofante (ID Mock)
         local hasPass = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(player.UserId, 10001)
         
         if hasPass or eb.Value >= COMMAND_PRICES[command] then

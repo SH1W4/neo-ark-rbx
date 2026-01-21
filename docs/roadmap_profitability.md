@@ -3,7 +3,7 @@
 ## 1. Potencial de Mercado: Por que vai dar certo?
 O seu jogo tem três diferenciais que a maioria dos jogos no Roblox não tem:
 
-- **O "Fator Nostalgia" Profissional**: A estética Matrix/Cyberpunk é atemporal e atrai tanto o público jovem quanto o mais velho (que gasta mais Robux).
+- **O \"Fator Nostalgia\" Profissional**: A estética Prime-Grid/Cyberpunk é atemporal e atrai tanto o público jovem quanto o mais velho (que gasta mais Robux).
 - **Escalabilidade com IA**: Graças ao **AION** e ao **EZ-Studios**, você pode gerar 100 níveis diferentes em segundos, enquanto outros desenvolvedores levam meses para construir um mapa.
 - **Monetização de "Poder"**: O **Painel de Comando Symbeon** (Admin Panel) é um dos produtos mais lucrativos no Roblox quando bem equilibrado. Jogadores amam demonstrar autoridade e "hackear" o servidor.
 
@@ -14,8 +14,9 @@ O seu jogo tem três diferenciais que a maioria dos jogos no Roblox não tem:
 Trabalhando com o fluxo que estabelecemos, você pode ter o jogo rodando em:
 
 ### **Semana 1: O "Blink" (MVP)**
-- **Meta**: Ter o primeiro mapa gerado pelo AION rodando no Roblox Studio.
-- **Ação**: Importar o `RobloxMapaModule.lua` e carregar o `matrix_dna_seed.json`.
+- **Genesis Fragment**: `prime_grid_trace_v2_entropy6.5`
+ mapa gerado pelo AION rodando no Roblox Studio.
+- **Ação**: Importar o `RobloxMapaModule.lua` e carregar o `genesis_map_seed.json`.
 - **Status**: **90% Pronto** (Já temos os módulos e a semente).
 
 ### **Semana 2: O Sistema (Gameplay Loop)**
