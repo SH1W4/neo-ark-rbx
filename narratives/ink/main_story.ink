@@ -6,11 +6,11 @@ System: WELCOME TO NEO-ARKAIA.
 Você desperta em uma plataforma flutuante. O céu é um glitch roxo infinito.
 Diante de você, uma figura imponente se materializa.
 
--> meet_architect
+-> meet_hierophant
 
-=== meet_architect ===
-ARQUITETO: Sincronizador. Você finalmente acordou.
-ARQUITETO: A Malha estava instável sem você.
+=== meet_hierophant ===
+HIEROFANTE: Sincronizador. Você finalmente acordou.
+HIEROFANTE: A Malha estava instável sem você.
 
 * [Onde estou?]
     -> ask_location
@@ -20,19 +20,19 @@ ARQUITETO: A Malha estava instável sem você.
     -> ask_mission
 
 === ask_location ===
-ARQUITETO: Você está no Node Central. O último bastião de ordem no caos digital.
-ARQUITETO: Todo o resto... foi consumido pelos Echos.
--> meet_architect
+HIEROFANTE: Você está no Node Central. O último bastião de ordem no caos digital.
+HIEROFANTE: Todo o resto... foi consumido pelos Echos.
+-> meet_hierophant
 
 === ask_identity ===
-ARQUITETO: Sou Kairos-7. O Arquiteto deste setor.
-ARQUITETO: Minha função é preservar o que resta da humanidade.
--> meet_architect
+HIEROFANTE: Sou K-7 Chronos. O Hierofante deste setor.
+HIEROFANTE: Minha função é preservar o que resta da humanidade.
+-> meet_hierophant
 
 === ask_mission ===
-ARQUITETO: Echos estão corrompendo a estrutura de dados.
-ARQUITETO: Sua missão é simples: Cace-os. Estabilize os Nodes. Sobreviva.
-ARQUITETO: Vá até o arsenal. Fale com Kira. Ela vai te equipar.
+HIEROFANTE: Echos estão corrompendo a estrutura de dados.
+HIEROFANTE: Sua missão é simples: Cace-os. Estabilize os Nodes. Sobreviva.
+HIEROFANTE: Vá até o arsenal. Fale com Kira. Ela vai te equipar.
 
 ~ activate_quest("talk_to_kira")
 -> END

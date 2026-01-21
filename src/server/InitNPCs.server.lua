@@ -35,8 +35,8 @@ end
 -- REGISTRO DE NPCS
 -- ==========================================
 
--- 1. O ARQUITETO (Kairos-7)
-SetupIfModelsExists("ArchitectNPC", "main_story", "meet_architect")
+-- 1. O HIEROFANTE (K-7 Chronos)
+SetupIfModelsExists("HierophantNPC", "main_story", "meet_hierophant")
 
 -- 2. LYRA (Cartógrafa) - Futuro
 -- SetupIfModelsExists("LyraNPC", "lyra_story", "meet_lyra")

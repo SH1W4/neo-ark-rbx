@@ -110,7 +110,7 @@ function NPCController:InitializeEvents()
         
         if result then
             -- Continuar diálogo no Cliente
-            ShowDialogueEvent:FireClient(player, "Arquiteto", result.text, result.choices)
+            ShowDialogueEvent:FireClient(player, "Hierofante", result.text, result.choices)
             
             -- Sincronizar variáveis de volta ao jogador
             self:ApplyVariablesToPlayer(player, runtime)

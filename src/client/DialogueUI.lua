@@ -50,7 +50,7 @@ function DialogueUI:CreateDialogueUI(player)
     npcName.Position = UDim2.new(0.02, 0, 0.05, 0)
     npcName.Size = UDim2.new(0.3, 0, 0.15, 0)
     npcName.BackgroundTransparency = 1
-    npcName.Text = "ARQUITETO"
+    npcName.Text = "HIEROFANTE"
     npcName.TextColor3 = Color3.fromRGB(123, 44, 191)
     npcName.TextScaled = true
     npcName.Font = Enum.Font.Code
