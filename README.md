@@ -46,8 +46,36 @@ O projeto segue a estrutura padrão Rojo para máxima modularidade:
 2. No Roblox Studio, abra o plugin do Rojo e clique em **Connect**.
 3. Os arquivos em `src/` serão sincronizados automaticamente com o Studio.
 
-## 🌌 Visão Geral: Protocolo Symbeon
-Este repositório é o núcleo da infraestrutura tecnológica de NEO-ARK, integrando economia de "Idle Yield", sistemas de Heist cross-server e uma narrativa profunda baseada na arqueologia digital do projeto AION.
+## 🌌 Visão Geral: Protocolo Symbeon (Vertical Slice v0.5)
+
+**Status:** `[VERTICAL_SLICE_ACTIVE]`
+**Meta:** Provar a convergência entre Gameplay, Narrativa Ink e Educação Técnica em um loop de 5 minutos.
+
+### O Loop "Soberano":
+1.  **Boot Injection (`TerminalBootManager`):** Injeção de código via terminal ASCII imersivo.
+2.  **Sovereign Narrative (`InkRuntime`):** Linha do tempo interativa explicando a ascensão da IA.
+3.  **Physical Calibration (`CalibrationManager`):** Teste de física que determina seu Arquétipo.
+4.  **Visual Convergence (`SovereignSkinManager`):** Aplicação automática de identidade visual (Cores/VFX).
 
 ---
-**Desenvolvido por [Symbeon Labs] com Antigravity Engine.**
+
+## 📚 Architect Academy: Logic Hacks
+
+*"Aquele que escreve o código, governa a realidade."*
+
+O sistema de **Logic Hacks** transforma desafios de programação em mecânicas de jogo (Heists).
+- **Terminal UI Glitch-Noir:** Interface imersiva para injeção de scripts.
+- **Currículo Real:** Módulos de Variáveis, Loops e Tabelas validados pelo servidor.
+- **Proof of Learning (PoL):** Recompensas permanentes em XP e Multiplicadores econômicos.
+
+---
+
+## 🛡️ Sovereign Strategy
+
+Este projeto segue o **Manifesto Soberano** (`ez-studios-core/docs/sovereign_strategy_manifesto.md`):
+- **Roblox como Infraestrutura:** Usamos a plataforma pelo subsídio de servidores, não por dependência.
+- **Código Agnóstico:** Lógica desacoplada pronta para migração futura.
+- **Economia Dual-Layer:** Inflação controlada (EB) vs. Escassez Real (IDNA).
+
+---
+**Desenvolvido por [Symbeon Labs] com Antigravity Engine.** 🕶️🚀

@@ -14,6 +14,7 @@
         "InitNPCs": { "$path": "src/server/InitNPCs.server.lua" },
         "Debug_CombatTest": { "$path": "src/server/Debug_CombatTest.server.lua" },
         "CalibrationManager": { "$path": "src/server/CalibrationManager.lua" },
+        "SovereignSkinManager": { "$path": "src/server/SovereignSkinManager.lua" },
         "WorldEngine": { "$path": "src/server/WorldEngine.server.lua" }
       }
     },
@@ -40,7 +41,8 @@
           "$className": "Folder",
           "Compiled": { 
              "$className": "Folder",
-             "main_story": { "$path": "narratives/compiled/main_story.json.lua" }
+             "main_story": { "$path": "narratives/compiled/main_story.json.lua" },
+             "timeline_narrative": { "$path": "narratives/compiled/neo_ark_timeline.json.lua" }
           }
         }
       }
@@ -49,7 +51,9 @@
       "StarterPlayerScripts": {
         "NeoArkaia_Client": {
           "$className": "Folder",
-          "HUDSystem": { "$path": "src/client/HUDSystem.client.lua" },
+          "GameClient": { "$path": "src/client/GameClient.client.lua" },
+          "HUDSystem": { "$path": "src/client/HUDSystem.lua" },
+          "TerminalBootManager": { "$path": "src/client/TerminalBootManager.lua" },
           "DialogueUI": { "$path": "src/client/DialogueUI.lua" },
           "IdleEngine": { "$path": "src/client/IdleEngine.client.lua" },
           "LogicHackUI": { "$path": "src/client/LogicHackUI.lua" },

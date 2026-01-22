@@ -8,6 +8,8 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 
+local TerminalBootManager = {}
+
 local Player = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
 
@@ -116,7 +118,7 @@ local function typewriterEffect(label, text)
     end
 end
 
-local function playBootSequence()
+function TerminalBootManager:Run(onComplete)
     local gui, mask, logs = createTerminalUI()
     
     -- Phase 1: Logs
@@ -167,12 +169,12 @@ local function playBootSequence()
             tween.Completed:Wait()
             gui:Destroy()
             
-            -- Trigger server event to start Calibration
-            game.ReplicatedStorage:WaitForChild("Events"):WaitForChild("StartCalibration"):FireServer()
+            -- Callback instead of direct event firing
+            if onComplete then
+                onComplete()
+            end
         end
     end)
 end
 
--- Initialize on spawn
-task.wait(1)
-playBootSequence()
+return TerminalBootManager

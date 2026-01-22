@@ -109,6 +109,21 @@ StartCalibrationEvent.OnServerEvent:Connect(function(player)
 	end)
 end)
 
+Players.PlayerAdded:Connect(function(player)
+	player.CharacterAdded:Connect(function(character)
+		-- Wait for character to fully load
+		task.wait(0.5)
+		
+		local archetype = player:GetAttribute("RecommendedArchetype")
+		if archetype then
+			local ServerScriptService = game:GetService("ServerScriptService")
+			local SovereignSkinManager = require(ServerScriptService:WaitForChild("SovereignSkinManager"))
+			SovereignSkinManager.ApplyArchetype(character, archetype)
+			print("[Calibration] Applied sovereign skin: " .. archetype)
+		end
+	end)
+end)
+
 Players.PlayerRemoving:Connect(function(player)
 	playerScores[player.UserId] = nil
 end)
